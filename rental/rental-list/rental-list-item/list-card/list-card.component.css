@@ -1,0 +1,48 @@
+ 
+  .bwm-card {
+    border: none;
+
+
+    .card-block {
+      padding-top: 8px;
+
+
+    
+      .card-subtitle{
+        text-decoration: none;
+        margin: 0;
+        font-weight: 500;
+        font-size: 12px;
+        text-transform: uppercase;
+        color: #16861a;
+      }
+    
+    
+      .card-title {
+        font-size: 19px;
+        margin: 3px 0;
+        color: #484848;
+      }
+
+
+      
+
+      .card-title {
+        font-size: 19px;
+        margin: 3px 0;
+        text-decoration: none;
+      }
+
+
+      .card-text {
+        font-size: 14px;
+        font-weight: 300;
+        color: #7e7e7e;
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  a{
+    text-decoration: none;
+  }

@@ -1,0 +1,26 @@
+article {
+    width: 400px;
+    padding:20px;
+    background-color: rgb(232,232,232);
+    margin:50px auto;
+    border-radius:10px
+}
+
+.example-full-width {
+    width: 100%;
+}
+
+.example-form {
+    min-width: 150px;
+    max-width: 500px;
+    width: 100%;
+}
+
+h2 {
+    color:rgb(100,100,100);
+}
+
+button[type=submit] {
+    width: 100%;
+    display: block;
+}

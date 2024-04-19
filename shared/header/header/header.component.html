@@ -1,0 +1,44 @@
+<mat-toolbar class="mat-elevation-z8">
+   <img src="https://res.cloudinary.com/du63kkxhl/image/upload/v1681629704/logo_smny53.png" alt="">
+  <a href="#" class="navbar-brand">Airbnb</a>
+  <span class="example-spacer"></span>
+
+
+  <div class="search-field">
+    <label for="where"></label>
+    <input id="where" class="custom-input" placeholder="{{ 'placeholderWhere' | translate }}">
+  </div>
+  
+  <div class="search-field">
+    <label for="checkIn"></label>
+    <input id="checkIn" class="custom-input" [matDatepicker]="checkInPicker" placeholder="{{ 'placeholderCheckIn' | translate }}">
+    <mat-datepicker-toggle matSuffix [for]="checkInPicker"></mat-datepicker-toggle>
+    <mat-datepicker #checkInPicker></mat-datepicker>
+  </div>
+  
+  <div class="search-field">
+    <label for="checkOut"></label>
+    <input id="checkOut" class="custom-input" [matDatepicker]="checkOutPicker" placeholder="{{ 'placeholderCheckOut' | translate}}">
+    <mat-datepicker-toggle matSuffix [for]="checkOutPicker"></mat-datepicker-toggle>
+    <mat-datepicker #checkOutPicker></mat-datepicker>
+  </div>
+  
+  <div class="search-field">
+    <label for="addGuests"></label>
+    <input id="addGuests" class="custom-input" placeholder="{{'placeholderAddGuests' | translate}}">
+  </div>
+  
+  <button mat-fab color="warn" aria-label="Search" class="search-icon">
+    <mat-icon>search</mat-icon>
+  </button>
+
+ 
+
+  <app-hamburger-menu>
+    <button class="signin" routerLink="/auth/sign-in"></button>
+    <button class="signup" routerLink="/auth/sign-up"></button>
+  </app-hamburger-menu>
+
+  <app-language></app-language>
+  
+</mat-toolbar>

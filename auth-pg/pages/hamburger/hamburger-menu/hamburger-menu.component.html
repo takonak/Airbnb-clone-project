@@ -1,0 +1,11 @@
+<mat-toolbar>
+    <button mat-icon-button [matMenuTriggerFor]="menu" class="hamburger-menu">
+      <mat-icon>menu</mat-icon>
+      <i class="fa fa-user-circle"></i>
+    </button>
+    <mat-menu #menu="matMenu">
+      <button mat-menu-item (click)="openSignInDialog()" >{{ 'login' | translate }}</button>
+      <button mat-menu-item (click)="openSignUpDialog()" >{{ 'register' | translate }}</button>
+    </mat-menu>
+  </mat-toolbar>
+  

@@ -1,0 +1,32 @@
+<article>
+    <h2>{{ 'signUpTitle' | translate }}</h2>
+    <form #form="ngForm" (ngSubmit)="onFormSubmit(form)">
+        <mat-form-field class="example-full-width">
+            <mat-label>{{ 'enterYourName' | translate }}</mat-label>
+            <input name="name" ngModel matInput type="text" required />
+        </mat-form-field>
+        <mat-form-field class="example-full-width">
+            <mat-label>{{ 'enterYourSurname' | translate }}</mat-label>
+            <input name="surname" ngModel matInput type="text" required />
+        </mat-form-field>
+        <mat-form-field class="example-full-width">
+            <mat-label>{{ 'enterYourUserName' | translate }}</mat-label>
+            <input name="userName" ngModel matInput type="text" required />
+        </mat-form-field>
+        <mat-form-field class="example-full-width">
+            <mat-label>{{ 'enterYourAge' | translate }}</mat-label>
+            <input name="age" ngModel matInput type="text" required />
+        </mat-form-field>
+        <mat-form-field class="example-full-width">
+            <mat-label>{{ 'enterYourEmail' | translate }}</mat-label>
+            <input name="email" ngModel matInput type="email" required />
+        </mat-form-field>
+        <mat-form-field class="example-full-width">
+            <mat-label>{{ 'enterYourPassword' | translate }}</mat-label>
+            <input name="password" ngModel matInput type="password" required />
+        </mat-form-field>
+        <div class="example-container">
+            <button type="submit" mat-raised-button color="primary">{{ 'registerButton' | translate }}</button>
+        </div>
+    </form>
+</article>

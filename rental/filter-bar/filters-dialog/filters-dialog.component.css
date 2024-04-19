@@ -1,0 +1,112 @@
+.filter-container {
+    display: block;
+    width: 600px;
+    height: auto;
+    padding: 20px;
+    background-color: rgb(232, 232, 232);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 6px;
+    margin: auto;
+}
+
+/* @media (min-width: 768px) {
+    .mainContainer {
+      width: 600px; 
+    }
+  }
+
+  @media (max-width: 767px) {
+    .mainContainer {
+      width: 100%; 
+      max-width: 600px; 
+    }
+  } */
+
+/* .filter-section {
+    margin-bottom: 20px;
+  }
+  
+  mat-button-toggle-group {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  mat-button-toggle {
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    padding: 10px 20px;
+  }
+  
+  mat-button-toggle.active {
+    background-color: #007bff;
+    color: white;
+    border-color: #007bff;
+  }
+  
+  mat-dialog-actions {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+  }
+  
+  button {
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button[mat-dialog-close] {
+    background-color: #f0f0f0;
+  }
+  
+  button[color="primary"] {
+    background-color: #007bff;
+    color: white;
+  } */
+
+  .filter-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 600px; /* Adjust as needed */
+    margin: 0 auto;
+  }
+  
+  .filter-section {
+    margin-bottom: 2rem;
+  }
+  
+  .filter-section h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .price-indicators {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1rem;
+  }
+  
+  .min-price,
+  .max-price {
+    font-size: 0.9rem;
+  }
+  
+  /* Angular Material specific overrides */
+  /* Add Angular Material specific CSS overrides here */
+  /* For example, to style mat-button-toggle */
+  mat-button-toggle-group {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  mat-button-toggle {
+    flex: 1;
+  }
+  
+  /* Style the slider */
+  mat-slider {
+    width: 100%; /* Adjust as needed */
+  }
+  

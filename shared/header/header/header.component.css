@@ -1,0 +1,79 @@
+.mat-toolbar {
+  display: flex;
+
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  color: #ff385c;
+}
+
+img{
+  width: 29px;
+  height: 29px;
+  right: 5px;
+}
+.example-spacer{
+  flex: 1 1 auto;
+}
+.navbar-brand {
+  font-weight: 700;
+  color: #ff385c;
+}
+
+
+.signin{
+  color: #ff385c;
+  border-radius: 20px;
+  border: 1px solid #ff385c;
+}
+
+.signup{
+  color: #ff385c;
+  border-radius: 20px;
+  border: 1px solid #ff385c;
+  margin-left: 10px;
+}
+.mat-icon{
+  border-radius: 50%;
+  background-color: #ff385c;
+  color: #fff; 
+  padding: 1px;
+}
+
+.search-field{
+  width: 200px;
+  height: 50px;
+  margin-right: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+  border-radius: 8px;
+  background-color: white;
+}
+
+.search-icon{
+  background-color: #ff385c;
+  width: 40px;
+  height: 40px;
+}
+
+input{
+  outline: none;
+  border: none;
+  width: 150px;
+
+}
+
+::placeholder{
+  font-size: medium;
+}
+
+.custom-input {
+  padding: 12px; 
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border: 0px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  height: 40px; 
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+}

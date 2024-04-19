@@ -1,0 +1,19 @@
+<article>
+    <h2>{{ 'signInTitle' | translate }}</h2>
+    <form #form="ngForm" (ngSubmit)="onFormSubmit(form)">
+        <mat-form-field class="example-full-width">
+            <mat-label>{{ 'enterYourEmail' | translate }}</mat-label>
+            <input name="email" ngModel matInput type="email" required />
+        </mat-form-field>
+        <mat-form-field class="example-full-width">
+            <mat-label>{{ 'enterYourPassword' | translate }}</mat-label>
+            <input name="password" ngModel matInput type="password" required />
+        </mat-form-field>
+        <div class="example-container">
+            <button (click)="onResetPasswordBtnClick()" type="button" mat-button> {{ 'resetPassword' | translate }}</button>
+        </div>
+        <div class="example-container">
+            <button type="submit" mat-raised-button color="primary">{{ 'loginButton' | translate }}</button>
+        </div>
+    </form>
+</article>

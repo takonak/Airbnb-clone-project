@@ -1,0 +1,105 @@
+.mat-toolbar{
+  padding: 0px 0px 8px;
+}
+
+.filter-toolbar{
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    padding-bottom: 0.5rem;
+    
+}
+
+.filter-toolbar .filter-list {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+
+
+  .filter-toolbar .filter-list .filter-item {
+    display: flex;
+    min-width: max-content;
+    align-items: center;
+    justify-content: center;
+    margin-right: 8px;
+    padding-left: 0px;
+  }
+  
+  .filter-toolbar .filter-list .filter-item button{
+    font-size: small;
+    border: none;
+    background-color: #fff;
+  }
+
+  .filter-toolbar .filter-list .filter-item a {
+    align-items: center;
+  }
+
+  .filter-toolbar .filter-list .filter-item a:hover{
+    cursor: pointer;
+    border-bottom: 2px solid black;
+  }
+
+  .icon-text-button .image-container {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 8px;
+  }
+  
+  .filter-toolbar .filter-list .filter-item a img {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 30%;
+    width: 20px;
+    height: 20px;
+  }
+
+  .icon-text-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+  }
+  
+  
+  
+
+  .icon-text-button .icon {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  
+  .icon-text-button span {
+    text-align: center;
+    display: block;
+  }
+  
+  /* .filter-toolbar .filter-list .filter-item a span {
+    
+  } */
+  
+  .filter-toolbar .example-spacer {
+    flex: 1 1 auto;
+  }
+  
+
+  .filter-button {
+    border: 1px solid #ddd; 
+    border-radius: 20px; 
+    padding: 8px 16px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    font-size: small;
+    background-color: #fff;
+  }
+  
+  .filter-button mat-icon {
+    margin-right: 8px; 
+  }
+  
+
+  
