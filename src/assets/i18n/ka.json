@@ -1,0 +1,20 @@
+{
+  "placeholderWhere": "სად",
+  "placeholderCheckIn": "შესვლა",
+  "placeholderCheckOut": "გასვლა",
+  "placeholderAddGuests": "ვინ?",
+  "login": "შესვლა",
+  "register": "რეგისტრაცია",
+  "signInTitle": "შესვლა",
+  "enterYourEmail": "შეიყვანეთ თქვენი ელ-ფოსტა",
+  "enterYourPassword": "შეიყვანეთ თქვენი პაროლი",
+  "resetPassword": "პაროლის აღდგენა",
+  "loginButton": "შესვლა",
+  "signUpTitle": "რეგისტრაცია",
+  "enterYourName": "შეიყვანეთ სახელი",
+  "enterYourSurname": "შეიყვანეთ გვარი",
+  "enterYourUserName": "შეიყვანეთ ნიკნეიმი",
+  "enterYourAge": "შეიყვანეთ ასაკი",
+  "registerButton": "რეგისტრაცია",
+  "homeTitle":"შენი სახლი მსოფლიოს გარშემო"
+}

@@ -1,0 +1,20 @@
+{
+  "placeholderWhere": "Where",
+  "placeholderCheckIn": "Check in",
+  "placeholderCheckOut": "Check out",
+  "placeholderAddGuests": "Add guests",
+  "login": "Login",
+  "register": "Register",
+  "signInTitle": "Sign In",
+  "enterYourEmail": "Enter your email",
+  "enterYourPassword": "Enter your password",
+  "resetPassword": "Reset Password",
+  "loginButton": "Login",
+  "signUpTitle": "Sign Up",
+  "enterYourName": "Enter your name",
+  "enterYourSurname": "Enter your surname",
+  "enterYourUserName": "Enter your username",
+  "enterYourAge": "Enter your age",
+  "registerButton": "Register",
+  "homeTitle": "Your home all around the world"
+}

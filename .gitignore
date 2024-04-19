@@ -42,3 +42,5 @@ testem.log
 Thumbs.db
 
 /server/config/dev.js
+server/index.js
+server/models/rental.js
