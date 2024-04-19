@@ -8,7 +8,7 @@ import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
 import { HeaderComponent } from './shared/header/header/header.component';
 import { RentalModule } from './rental/rental.module';
 import { Routes, RouterModule } from '@angular/router';
-import { environment } from '../environments/environment';
+import { environment } from '../app/environments/environment';
 import { AuthComponent } from './auth-pg/auth/auth.component';
 import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
 import { SignInComponent } from './auth-pg/pages/sign-in/sign-in.component';
